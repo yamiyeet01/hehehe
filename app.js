@@ -371,7 +371,7 @@ function onProposalEnter() {
   if (ans === "NO") {
     UI.noCount += 1;
     if (UI.noCount === 1) UI.message = "Please?";
-    else if (UI.noCount === 2) UI.message = "Pretty girl, please?? I LOVE YOUU!!";
+    else if (UI.noCount === 2) UI.message = "Pretty girl, please??!";
     else UI.message = "I’ll cry. I know this is too basic for you :'<";
     UI.proposalInput = "";
     updateProposalTiles();
@@ -397,7 +397,7 @@ function onAccepted() {
 
   const big = document.createElement("div");
   big.className = "big";
-  big.textContent = "Thank you for accepting my love!";
+  big.textContent = "Thank you for accepting me!";
   wrap.appendChild(big);
 
   const preparing = document.createElement("div");
@@ -1044,3 +1044,4 @@ function createFx(canvas) {
 
   return { setDpr, startCelebration, stop };
 }
+
