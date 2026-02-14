@@ -7,9 +7,9 @@
 
 const EMAILJS_CONFIG = {
   enabled: true, 
-  publicKey: "n-O2ZbgdMv1JGDsqs", 
-  serviceId: "service_934k6ph", 
-  templateId: "template_euhrlgg",
+  publicKey: "7IgPP7RHaPYy3D6A9", 
+  serviceId: "service_j5ogud7", 
+  templateId: "template_ppn5zb7",
 };
 
 const appEl = document.getElementById("app");
@@ -703,9 +703,50 @@ async function sendInviteEmailStatic() {
 
 function buildInviteTextEmail() {
   return (
-    "Valentines Card\n" +
-    "PRACTICE LANG YOB HAHAAHA\n\n" +
-    "SANAOL MAY VALENTINES\n"
+    "JEVI and CHANIE’s Invitation Card\n" +
+    "A Valentine’s Date Plan Made With Love\n\n" +
+    "DATE: February 15, 2026 (Sunday)\n" +
+    "Call Time: 9:00 AM\n" +
+    "Theme: Korean-inspired outfit, maroon color palette\n\n" +
+    "Things to Bring\n" +
+    "(Pack before 9:00 AM)\n\n" +
+    "Paper plates with spoon & cups\n" +
+    "Starbucks Gift Card\n" +
+    "Sipa\n" +
+    "Uno cards\n" +
+    "Picnic blanket\n" +
+    "Camera or phone with stand or tripod\n" +
+    "Painting materials\n" +
+    "Big bag (to carry food and supplies)\n\n" +
+    "UP Town Mall Plan\n\n" +
+    "Photo booth (Life 4 Cuts or other booths)\n" +
+    "Eat lunch (Preferred: Fine Dining Restaurant)\n" +
+    "Arcades (just try playing)\n\n" +
+    "Foods to Buy:\n\n" +
+    "Pizza (at least small)\n" +
+    "Potato Corner fries\n" +
+    "Fruits\n" +
+    "Sandwiches\n" +
+    "Chips\n" +
+    "Water\n" +
+    "Canned soft drinks or juice (or Yakult or Delight)\n" +
+    "1.5L Coke (optional)\n" +
+    "Starbucks drink\n" +
+    "UP Campus Activities\n\n" +
+    "Walk around UP\n" +
+    "Take scenic photos and videos\n" +
+    "Visit the famous UP statue and take pictures or videos\n" +
+    "Set up picnic area (picnic date)\n" +
+    "Painting date\n" +
+    "Play Uno cards\n" +
+    "Play Sipa\n\n" +
+    "Bonus Plan (Evening)\n\n" +
+    "(If kaya pa ng budget)\n\n" +
+    "Dinner date inside UP Town Mall\n" +
+    "Take photos or videos\n\n" +
+    "If hindi na kaya ng budget, then let’s eat low-budget meals before umuwi.\n\n" +
+    "“Thank you for being my Valentine.\n" +
+    "I can’t wait to spend this day with you.”"
   );
 }
 
@@ -1003,4 +1044,3 @@ function createFx(canvas) {
 
   return { setDpr, startCelebration, stop };
 }
-
